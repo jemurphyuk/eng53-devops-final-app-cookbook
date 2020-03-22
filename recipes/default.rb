@@ -83,9 +83,6 @@ execute 'enable_module_syslogs' do
   command 'sudo filebeat modules enable system'
 end
 
-execute 'enable_module_nginx' do
-  command 'sudo filebeat modules enable nginx'
-end
 
 #execute 'setup_dasboards' do
 #  command 'sudo filebeat setup'
