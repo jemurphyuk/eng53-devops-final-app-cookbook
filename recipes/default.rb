@@ -32,6 +32,7 @@ link '/etc/nginx/sites-enabled/proxy.conf' do
   notifies :restart, 'service[nginx]'
 end
 
+
 include_recipe 'beats_cookbook::default'
 
 template 'etc/metricbeat/metricbeat.yml' do
@@ -87,3 +88,4 @@ service 'filebeat' do
   supports status: true, restart: true, reload: true
   action [:enable, :start]
 end
+
