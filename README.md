@@ -19,7 +19,7 @@ To start the integration test, run the command
 kitchen test
 ````
 A Jenkins job is capable of testing this cookbook by running the unit/int test commands, manually of using a webhook when a branch push is made
-If these tests are successful, the build is merged and will trigger a packer job from repository:
+If these tests are successful, the build is merged and will trigger similar chef tests in the repository:
 
 https://github.com/jemurphyuk/eng53-devops-final-db-cookbook
 
