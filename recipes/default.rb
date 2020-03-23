@@ -14,6 +14,7 @@ service "nginx" do
 end
 
 include_recipe 'nodejs'
+
 nodejs_npm 'pm2'
 
 template '/etc/nginx/sites-available/proxy.conf' do
