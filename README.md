@@ -1,5 +1,5 @@
 # App Cookbook
-The cookbook for a nodejs application provisions an instance to setup an the application. The kitchencloud.yml completes this action on AWS cloud web server, kitchen.yml can be used for local.
+The cookbook for a nodejs application provisions an instance to setup an the application, located in the ``recipe/default.rb`` file. The kitchencloud.yml completes this action on AWS cloud web server, kitchen.yml can be used for local.
 The following environment variables are set in Jenkins, and need to be set locally to run locally
 
 ````
